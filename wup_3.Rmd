@@ -61,4 +61,4 @@ plot(TukeyHSD(model1))
 this shows that the back students are drinking more than the front and middle
 ## Conclusions
 
-
+Based on the data, we can say that if you are sitting towards the back of the class, you are more likely to be drinking more than the other students sitting in the front and middle of the class. 
