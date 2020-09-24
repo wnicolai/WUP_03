@@ -38,9 +38,27 @@ basicCN + geom_boxplot(notch=TRUE,outlier.color = "red") + stat_boxplot(geom ='e
 ```
 
 ## Numerical Summarys 
+  
+  
+```{r}
+favstats(alcohol~Seat,data=davisdata)
+```  
+
+based on these numerical, the back row is higher than the rest.  
 
 ## Inferential Tests
 
+```{r}
+model1 <- aov(alcohol~Seat,data=davisdata)
+summary.aov(model1)
+```
+  
+  
+```{r}
+plot(TukeyHSD(model1))
+```
+
+this shows that the back students are drinking more than the 
 ## Conclusions
 
 
