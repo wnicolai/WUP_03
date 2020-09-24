@@ -58,7 +58,7 @@ summary.aov(model1)
 plot(TukeyHSD(model1))
 ```
 
-this shows that the back students are drinking more than the 
+this shows that the back students are drinking more than the front and middle
 ## Conclusions
 
 
