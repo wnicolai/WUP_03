@@ -28,6 +28,8 @@ basicCN <- ggplot(davisdata,aes(y=alcohol,x=Seat))
 basicCN + geom_boxplot()
 ```
   
+    
+    looks as if the back row has more avergae
   
 ### get fancy  
 
